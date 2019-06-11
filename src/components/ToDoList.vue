@@ -31,7 +31,7 @@ export default {
     ...mapActions({
       ajouterT: 'toDoList/ajouter'
     }),
-    ajouter(task){
+    ajouter (task) {
       this.newTask = ''
       this.ajouterT(task)
     }
